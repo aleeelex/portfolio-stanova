@@ -1,0 +1,16 @@
+:root{
+    --primarna-pozadie: #EDD89D;
+    --primarna-header-footer-sekcie: #A0724D;
+    --primarna-border-nav: #D89D51;
+    --text-podnadpisy: #453223;
+
+    --elementy-sekcie: #A7A775;
+    --sekundarna-nadpisy: #636F3C;
+    
+    --nadpisy-projektov: #FFF5D8;
+    --imput-bordery: #DEF0C1;
+}
+
+body{
+    background-color: var(--primarna-pozadie);
+}
