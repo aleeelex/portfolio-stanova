@@ -1,3 +1,7 @@
+@import url('https://fonts.googleapis.com/css2?family=Irish+Grover&family=Julius+Sans+One&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Irish+Grover&family=Julius+Sans+One&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Original+Surfer&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cherry+Swash:wght@400;700&family=Irish+Grover&family=Julius+Sans+One&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Original+Surfer&display=swap');
+
 :root{
     --primarna-pozadie: #EDD89D;
     --primarna-header-footer-sekcie: #A0724D;
