@@ -16,15 +16,52 @@
     --imput-bordery: #DEF0C1;
 }
 
+
+
 @media(min-width: 768px){
     body{
         background-color: var(--primarna-pozadie);
     }
 }
 
+
+/*-------------------------------------------------------------------------------------*/
+
+
 .farba-mena{
     color: var(--sekundarna-meno);
 }
 .farba-portfolio{
     color: var(--sekundarna-nadpisy);
+}
+
+/*--------------------------------------------------------------------------------------*/
+
+p{
+    color: var(--text-podnadpisy);
+}
+h3{
+    color: var(--text-podnadpisy);
+}
+h2{
+    color: var(--text-podnadpisy);
+}
+
+/*----------------------------------------------------------------------------------------*/
+
+
+.domov-popis{
+    background-color: var(--imput-bordery);
+    padding: 5px;
+    border: var(--imput-bordery);
+    border-radius: 10px;
+}
+
+.o-mne{
+    background-color: var(--primarna-border-nav);
+    border-radius: 6px;
+    padding: 5px;
+    border-color: var(--primarna-border-nav);
+    border-bottom: var(--primarna-border-nav);
+    border-right: var(--primarna-border-nav);
 }
