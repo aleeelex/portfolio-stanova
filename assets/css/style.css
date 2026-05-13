@@ -10,6 +10,7 @@
 
     --elementy-sekcie: #A7A775;
     --sekundarna-nadpisy: #636F3C;
+    --sekundarna-meno: #6A5435;
     
     --nadpisy-projektov: #FFF5D8;
     --imput-bordery: #DEF0C1;
@@ -20,3 +21,4 @@
         background-color: var(--primarna-pozadie);
     }
 }
+
