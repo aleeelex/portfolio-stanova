@@ -22,3 +22,9 @@
     }
 }
 
+.farba-mena{
+    color: var(--sekundarna-meno);
+}
+.farba-portfolio{
+    color: var(--sekundarna-nadpisy);
+}
