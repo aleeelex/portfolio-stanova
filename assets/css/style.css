@@ -207,7 +207,9 @@ a{
     border: solid;
 }
 
-
+.naj-projekty-nadpis{
+    background-color: var(--elementy-sekcie);
+}
 
 
 
