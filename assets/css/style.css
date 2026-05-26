@@ -91,6 +91,9 @@ h4{
 .border-popis{
     background-color: var(--primarna-border-nav);
 }
+.naj-projekty{
+    background-color: var(--primarna-header-footer-sekcie);
+}
 
 
 
