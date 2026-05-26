@@ -202,6 +202,11 @@ a{
     background-color: var(--primarna-border-nav);
 }
 
+.projekt{
+    border-color: var(--primarna-header-footer-sekcie);
+    border: solid;
+}
+
 
 
 
