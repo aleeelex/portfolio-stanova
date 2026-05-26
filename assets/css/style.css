@@ -75,6 +75,29 @@ h4{
     border-right: var(--primarna-border-nav);
 }
 
+.viac-projektov{
+    background-color: var(--imput-bordery);
+
+}
+
+.kontaktovat{
+    background-color: var(--primarna-border-nav);
+}
+
+.border-nazov{
+    background-color: var(--primarna-border-nav);
+
+}
+.border-popis{
+    background-color: var(--primarna-border-nav);
+}
+
+
+
+
+
+
+
 a{
     text-decoration: none;
     font-family: Cherry Swash;
@@ -82,8 +105,12 @@ a{
 
 footer{
     font-family: Cherry Swash;
+    background-color: var(--primarna-header-footer-sekcie);
 }
 
+header{
+    background-color: var(--primarna-header-footer-sekcie);
+}
 
 
 
