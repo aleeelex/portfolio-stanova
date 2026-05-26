@@ -31,8 +31,25 @@ header{
     background-color: var(--primarna-header-footer-sekcie);
 
 }
-.header-nazvy{
+.header-domov{
     font-family: Irish Grover;
+    color: var(--text-podnadpisy);
+    background-color: var(--primarna-border-nav);
+}
+.header-kontakt{
+    font-family: Irish Grover;
+    color: var(--text-podnadpisy);
+    background-color: var(--primarna-border-nav);
+}
+.header-omne{
+    font-family: Irish Grover;
+    color: var(--text-podnadpisy);
+    background-color: var(--primarna-border-nav);
+}
+.header-portfolio{
+    font-family: Irish Grover;
+    color: var(--text-podnadpisy);
+    background-color: var(--primarna-border-nav);
 }
 
 
