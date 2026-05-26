@@ -85,6 +85,7 @@ h2{
 }
 h4{
     font-family: Cherry Swash;
+    color: var(--nadpisy-projektov);
 }
 
 
@@ -104,15 +105,17 @@ h4{
     border-color: var(--primarna-border-nav);
     border-bottom: var(--primarna-border-nav);
     border-right: var(--primarna-border-nav);
+    color: var(--text-podnadpisy);
 }
 
 .viac-projektov{
     background-color: var(--imput-bordery);
-
+    color: var(--text-podnadpisy);
 }
 
 .kontaktovat{
     background-color: var(--primarna-border-nav);
+    color: var(--text-podnadpisy);
 }
 
 .border-nazov{
@@ -188,6 +191,7 @@ a{
 
 .projekty-nazvy{
     background-color: var(--primarna-border-nav);
+    color: var(--nadpisy-projektov);
 }
 
 .projekty-popis{
