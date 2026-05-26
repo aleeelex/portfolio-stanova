@@ -165,7 +165,10 @@ a{
     font-family: Irish Grover;
 }
 
-
+.zručnosti-nadpis{
+    color: var(--sekundarna-nadpisy);
+    background-color: var(--imput-bordery);
+}
 
 
 
@@ -184,6 +187,7 @@ a{
 
 .projekty-portfolio{
     font-family: Irish Grover;
+    color: var(--sekundarna-nadpisy);
 }
 .portfolio-text{
     background-color: var(--imput-bordery);
@@ -195,5 +199,47 @@ a{
 }
 
 .projekty-popis{
+    background-color: var(--primarna-border-nav);
+}
+
+
+
+
+
+
+
+
+
+
+
+/*-------------------------------------------------------------------------------------*/
+
+
+/*toto je kontakt*/
+
+
+.kontakt-nadpis{
+    color: var(--sekundarna-nadpisy);
+}
+
+form{
+    background-color: var(--elementy-sekcie);
+}
+
+.labels-kontakt{
+    font-family: Cherry Swash;
+}
+
+input{
+    background-color: var(--imput-bordery);
+    border: none;
+}
+
+textarea{
+    background-color: var(--imput-bordery);
+    border: none;
+}
+
+.mail-telefon{
     background-color: var(--primarna-border-nav);
 }
