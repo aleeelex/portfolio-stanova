@@ -120,7 +120,10 @@ header{
 /*-------------------------------------------------------------------------------------*/
 
 
-/*toto je portfolio*/
+/*toto je o mne*/
 
+.o-mne-p{
+    background-color: var(--imput-bordery);
+}
 
 
