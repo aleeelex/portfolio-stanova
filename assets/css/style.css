@@ -126,4 +126,16 @@ header{
     background-color: var(--imput-bordery);
 }
 
+.meno-o-mne{
+    font-family: Original Surfer;
+}
 
+
+/*-------------------------------------------------------------------------------------*/
+
+
+/*toto je portfolio*/
+
+.projekty-portfolio{
+    font-family: Irish Grover;
+}
