@@ -34,6 +34,7 @@ body{
 }
 .farba-portfolio{
     color: var(--sekundarna-nadpisy);
+    font-family: Irish Grover;
 }
 
 
@@ -45,9 +46,14 @@ p{
 h3{
 
     color: var(--text-podnadpisy);
+    font-family: Original Surfer;
 }
 h2{
     color: var(--text-podnadpisy);
+    font-family: Original Surfer;
+}
+h4{
+    font-family: Cherry Swash;
 }
 
 
@@ -71,8 +77,15 @@ h2{
 
 a{
     text-decoration: none;
-    
+    font-family: Cherry Swash;
 }
+
+footer{
+    font-family: Cherry Swash;
+}
+
+
+
 
 /*-------------------------------------------------------------------------------------*/
 
