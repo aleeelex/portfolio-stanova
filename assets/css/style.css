@@ -21,6 +21,20 @@ body{
     background-color: var(--primarna-pozadie);
 }
 
+footer{
+    font-family: Cherry Swash;
+    background-color: var(--primarna-header-footer-sekcie);
+    color: var(--nadpisy-projektov);
+}
+
+header{
+    background-color: var(--primarna-header-footer-sekcie);
+
+}
+.header-nazvy{
+    font-family: Irish Grover;
+}
+
 
 /*-------------------------------------------------------------------------------------*/
 
@@ -106,14 +120,10 @@ a{
     font-family: Cherry Swash;
 }
 
-footer{
-    font-family: Cherry Swash;
-    background-color: var(--primarna-header-footer-sekcie);
-}
 
-header{
-    background-color: var(--primarna-header-footer-sekcie);
-}
+
+
+
 
 
 
@@ -121,6 +131,7 @@ header{
 
 
 /*toto je o mne*/
+
 
 .o-mne-p{
     background-color: var(--imput-bordery);
@@ -130,12 +141,38 @@ header{
     font-family: Original Surfer;
 }
 
+.nadpis-o-mne{
+    font-family: Irish Grover;
+}
+
+
+
+
+
+
+
+
+
+
+
 
 /*-------------------------------------------------------------------------------------*/
 
 
 /*toto je portfolio*/
 
+
 .projekty-portfolio{
     font-family: Irish Grover;
+}
+.portfolio-text{
+    background-color: var(--imput-bordery);
+}
+
+.projekty-nazvy{
+    background-color: var(--primarna-border-nav);
+}
+
+.projekty-popis{
+    background-color: var(--primarna-border-nav);
 }
