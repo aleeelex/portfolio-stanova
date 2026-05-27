@@ -123,14 +123,21 @@ h4{
     border-bottom: var(--primarna-border-nav);
     border-right: var(--primarna-border-nav);
     color: var(--text-podnadpisy);
+    
 }
+.sekcia-viac-omne{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
 
 .viac-projektov{
     background-color: var(--imput-bordery);
     color: var(--text-podnadpisy);
-    
+    border-radius: 5px;
 }
-
 .sekcia-viac-projektov{
     display: flex;
     flex-direction: column;
@@ -145,10 +152,11 @@ h4{
 .border-nazov{
     background-color: var(--primarna-border-nav);
     text-align: center;
+    border-radius: 7px;
 }
 .border-popis{
     background-color: var(--primarna-border-nav);
-    border-radius: 10px;
+    border-radius: 7px;
 }
 .naj-projekty{
     background-color: var(--primarna-header-footer-sekcie);
