@@ -136,13 +136,17 @@ h4{
 .viac-projektov{
     background-color: var(--imput-bordery);
     color: var(--text-podnadpisy);
-    border-radius: 5px;
+    border-radius: 7px;
+    padding: 7px;
 }
 .sekcia-viac-projektov{
     display: flex;
     flex-direction: column;
     align-items: center;
+    margin-top: 50px;
 }
+
+
 
 .kontaktovat{
     background-color: var(--primarna-border-nav);
