@@ -17,6 +17,9 @@
 }
 
 
+/*----------------------------------------------------------------------------------*/
+
+
 body{
     background-color: var(--primarna-pozadie);
     margin: 0;
@@ -125,6 +128,13 @@ h4{
 .viac-projektov{
     background-color: var(--imput-bordery);
     color: var(--text-podnadpisy);
+    
+}
+
+.sekcia-viac-projektov{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 .kontaktovat{
@@ -134,13 +144,15 @@ h4{
 
 .border-nazov{
     background-color: var(--primarna-border-nav);
-
+    text-align: center;
 }
 .border-popis{
     background-color: var(--primarna-border-nav);
+    border-radius: 10px;
 }
 .naj-projekty{
     background-color: var(--primarna-header-footer-sekcie);
+    padding: 55px;
 }
 
 .obrazky{
@@ -153,8 +165,17 @@ h4{
     margin-right: auto;
 }
 
-
-
+.projekt-monet{
+    border-bottom: solid;
+    color: var(--primarna-pozadie);
+    padding-bottom: 50px;
+}
+.projekt-buducnost{
+    border-bottom: solid;
+    color: var(--primarna-pozadie);
+    padding-top: 70px;
+    padding-bottom: 50px;
+}
 
 
 a{
