@@ -30,28 +30,40 @@ footer{
 
 header{
     background-color: var(--primarna-header-footer-sekcie);
-    padding: 100px;
+    padding: 15px;
 
 }
 .header-domov{
     font-family: Irish Grover;
     color: var(--text-podnadpisy);
     background-color: var(--primarna-border-nav);
+    margin-right: 10px;
+    padding: 3px;
+    border-radius: 5px;
 }
 .header-kontakt{
     font-family: Irish Grover;
     color: var(--text-podnadpisy);
     background-color: var(--primarna-border-nav);
+    margin-right: 10px;
+    padding: 3px;
+    border-radius: 5px;
 }
 .header-omne{
     font-family: Irish Grover;
     color: var(--text-podnadpisy);
     background-color: var(--primarna-border-nav);
+    margin-right: 10px;
+    padding: 3px;
+    border-radius: 5px;
 }
 .header-portfolio{
     font-family: Irish Grover;
     color: var(--text-podnadpisy);
     background-color: var(--primarna-border-nav);
+    margin-right: 10px;
+    padding: 3px;
+    border-radius: 5px;
 }
 
 
