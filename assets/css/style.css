@@ -29,6 +29,10 @@ footer{
     font-family: Cherry Swash;
     background-color: var(--primarna-header-footer-sekcie);
     color: var(--nadpisy-projektov);
+    padding-top: 80px;
+    margin-top: 50px;
+    padding-bottom: 80px;
+    text-align: center;
 }
 
 header{
@@ -155,7 +159,21 @@ h4{
 .kontaktovat{
     background-color: var(--primarna-border-nav);
     color: var(--text-podnadpisy);
+    margin-left: 20px;
 }
+.border-kontakt{
+    border-top: solid;
+    color: var(--elementy-sekcie);
+    margin-top: 90px;
+    padding-top: 20px;
+}
+#ozvite-sa-nadpis{
+    margin-left: 20px;
+
+}
+
+
+
 
 .border-nazov{
     background-color: var(--primarna-border-nav);
