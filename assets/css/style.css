@@ -47,6 +47,7 @@ header{
     margin-right: 10px;
     padding: 3px;
     border-radius: 5px;
+    margin-left: 5px;
 }
 .header-kontakt{
     font-family: Irish Grover;
@@ -83,6 +84,7 @@ header{
 .farba-mena{
     color: var(--sekundarna-meno);
     font-family: Original Surfer;
+    
 }
 .farba-portfolio{
     color: var(--sekundarna-nadpisy);
@@ -117,6 +119,9 @@ h4{
     padding: 5px;
     border: var(--imput-bordery);
     border-radius: 10px;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-bottom: 70px;
 }
 
 .o-mne{
@@ -136,7 +141,8 @@ h4{
     border-bottom: solid;
     color: var(--primarna-header-footer-sekcie);
     padding-bottom: 40px;
-    
+    margin-left: 40px;
+    margin-right: 40px;
 }
 
 
@@ -169,7 +175,6 @@ h4{
 }
 #ozvite-sa-nadpis{
     margin-left: 20px;
-
 }
 
 
@@ -179,6 +184,8 @@ h4{
     background-color: var(--primarna-border-nav);
     text-align: center;
     border-radius: 7px;
+    margin-left: 60px;
+    margin-right: 60px;
 }
 .border-popis{
     background-color: var(--primarna-border-nav);
@@ -193,6 +200,8 @@ h4{
     background-color: var(--elementy-sekcie);
     text-align: center;
     margin-top: 60px;
+    margin-left: 20px;
+    margin-right: 20px;
 }
 
 .obrazky{
