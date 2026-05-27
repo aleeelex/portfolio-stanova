@@ -159,6 +159,7 @@ a{
 
 .meno-o-mne{
     font-family: Original Surfer;
+    color: var(--sekundarna-nadpisy);
 }
 
 .nadpis-o-mne{
@@ -171,9 +172,9 @@ a{
 }
 
 #pfp{
-    color: #A0724D;
+    color: var(--primarna-header-footer-sekcie);
     border: solid;
-    border-width: 5px;
+    border-width: 6px;
     border-radius: 50%;
 }
 
