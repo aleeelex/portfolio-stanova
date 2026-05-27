@@ -170,7 +170,12 @@ a{
     background-color: var(--imput-bordery);
 }
 
-
+#pfp{
+    color: #A0724D;
+    border: solid;
+    border-width: 5px;
+    border-radius: 50%;
+}
 
 
 
