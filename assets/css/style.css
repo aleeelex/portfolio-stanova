@@ -129,7 +129,12 @@ h4{
     background-color: var(--primarna-header-footer-sekcie);
 }
 
-
+.obrazky{
+    color: var(--primarna-pozadie);
+    border: solid;
+    border-width: 3px;
+    border-radius: 6px;
+}
 
 
 
@@ -217,8 +222,12 @@ a{
     background-color: var(--elementy-sekcie);
 }
 
-
-
+.obrazky2{
+    color: var(--primarna-header-footer-sekcie);
+    border: solid;
+    border-radius: 5px;
+    border-width: 4px;
+}
 
 
 
