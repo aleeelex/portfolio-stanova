@@ -293,6 +293,8 @@ a{
 .projekty-portfolio{
     font-family: Irish Grover;
     color: var(--sekundarna-nadpisy);
+    text-align: right;
+    margin-right: 20px;
 }
 .portfolio-text{
     background-color: var(--imput-bordery);
