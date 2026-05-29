@@ -141,8 +141,8 @@ h4{
     border-bottom: solid;
     color: var(--primarna-header-footer-sekcie);
     padding-bottom: 40px;
-    margin-left: 40px;
-    margin-right: 40px;
+    margin-left: 30px;
+    margin-right: 30px;
     text-align: center;
 }
 
@@ -166,17 +166,20 @@ h4{
 .kontaktovat{
     background-color: var(--primarna-border-nav);
     color: var(--text-podnadpisy);
-    margin-left: 20px;
+    margin-left: 10px;
 }
 .border-kontakt{
     border-top: solid;
     color: var(--elementy-sekcie);
     margin-top: 90px;
     padding-top: 20px;
+    margin-left: 30px;
+    margin-right: 30px;
 }
 #ozvite-sa-nadpis{
-    margin-left: 20px;
+    margin-left: 10px;
 }
+
 
 
 
@@ -334,6 +337,7 @@ a{
 
 .kontakt-nadpis{
     color: var(--sekundarna-nadpisy);
+    margin-left: 10px;
 }
 
 form{
@@ -356,4 +360,9 @@ textarea{
 
 .mail-telefon{
     background-color: var(--primarna-border-nav);
+}
+
+.kontakt-footer{
+    margin-top: 350px;
+    padding-bottom: 50px;
 }
