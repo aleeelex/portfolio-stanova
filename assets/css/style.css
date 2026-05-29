@@ -301,10 +301,17 @@ a{
 .projekty-nazvy{
     background-color: var(--primarna-border-nav);
     color: var(--nadpisy-projektov);
+    text-align: center;
+    border-radius: 5px;
+    margin-left: 20px;
+    margin-right: 20px;
 }
 
 .projekty-popis{
     background-color: var(--primarna-border-nav);
+    border-radius: 5px;
+    margin-left: 20px;
+    margin-right: 20px;
 }
 
 .projekt{
