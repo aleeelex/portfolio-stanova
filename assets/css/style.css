@@ -132,7 +132,7 @@ h4{
     border-bottom: var(--primarna-border-nav);
     border-right: var(--primarna-border-nav);
     color: var(--text-podnadpisy);
-    
+    margin-top: 40px;
 }
 .sekcia-viac-omne{
     display: flex;
@@ -143,6 +143,7 @@ h4{
     padding-bottom: 40px;
     margin-left: 40px;
     margin-right: 40px;
+    text-align: center;
 }
 
 
@@ -202,6 +203,7 @@ h4{
     margin-top: 60px;
     margin-left: 20px;
     margin-right: 20px;
+    border-radius: 5px;
 }
 
 .obrazky{
