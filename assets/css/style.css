@@ -254,6 +254,9 @@ a{
 
 .o-mne-p{
     background-color: var(--imput-bordery);
+    margin-left: 20px;
+    margin-right: 20px;
+    border-radius: 10px;
 }
 
 .meno-o-mne{
@@ -263,11 +266,16 @@ a{
 
 .nadpis-o-mne{
     font-family: Irish Grover;
+    margin-left: 20px;
 }
 
 .zručnosti-nadpis{
     color: var(--sekundarna-nadpisy);
     background-color: var(--imput-bordery);
+    text-align: center;
+    margin-left: 20px;
+    margin-right: 20px;
+    border-radius: 5px;
 }
 
 #pfp{
@@ -277,7 +285,9 @@ a{
     border-radius: 50%;
 }
 
-
+.zručnosti-kvety{
+   
+}
 
 
 
