@@ -323,12 +323,14 @@ a{
 .portfolio-text{
     background-color: var(--imput-bordery);
     border-radius: 10px;
+    margin-bottom: 35px;
 }
 .projekty-uvod{
     border-bottom: solid;
     color: var(--primarna-header-footer-sekcie);
     margin-left: 20px;
     margin-right: 20px;
+    margin-bottom: 90px;
 }
 
 
@@ -337,9 +339,11 @@ a{
     background-color: var(--primarna-border-nav);
     color: var(--nadpisy-projektov);
     text-align: center;
-    border-radius: 5px;
-    margin-left: 85px;
-    margin-right: 85px;
+    border-radius: 8px;
+    margin-left: 70px;
+    margin-right: 70px;
+    font-family: Cherry Swash;
+    padding: 5px;
 }
 
 .projekty-popis{
@@ -347,6 +351,7 @@ a{
     border-radius: 5px;
     margin-left: 20px;
     margin-right: 20px;
+    margin-bottom: 70px;
 }
 
 .projekt{
@@ -356,6 +361,10 @@ a{
 
 .projekty-sekcie{
     border-bottom: solid;
+    margin-left: 20px;
+    margin-right: 20px;
+    color: var(--primarna-header-footer-sekcie);
+    margin-bottom: 60px;
 }
 
 
