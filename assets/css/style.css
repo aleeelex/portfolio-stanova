@@ -408,30 +408,71 @@ a{
 
 .kontakt-nadpis{
     color: var(--sekundarna-nadpisy);
-    margin-left: 10px;
+    text-align: center;
 }
 
 form{
     background-color: var(--elementy-sekcie);
+    margin-left: 20px;
+    margin-right: 20px;
+    padding: 30px 25px;
+    border-radius: 25px;
+    max-width: 560px;
+    box-sizing: border-box;
 }
 
 .labels-kontakt{
+    display: block;
     font-family: Cherry Swash;
     color: var(--text-podnadpisy);
+    margin-bottom: 12px;
+    margin-left: 5px;
+    font-size: 18px;
 }
 
 input{
+    display: block;
+    width: 100%;
     background-color: var(--imput-bordery);
     border: none;
+    border-radius: 15px;
+    padding: 18px 16px;
+    margin-bottom: 25px;
+    box-sizing: border-box;
 }
 
 textarea{
+    display: block;
+    width: 100%;
+    min-height: 140px;
     background-color: var(--imput-bordery);
     border: none;
+    border-radius: 20px;
+    padding: 18px 16px;
+    margin-bottom: 25px;
+    box-sizing: border-box;
+}
+
+button{
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: auto;
+    padding: 12px 30px;
+    border: none;
+    border-radius: 15px;
+    background-color: var(--primarna-border-nav);
+    color: var(--text-podnadpisy);
+    font-family: Cherry Swash;
+    cursor: pointer;
 }
 
 .mail-telefon{
     background-color: var(--primarna-border-nav);
+    margin-left: 20px;
+    margin-right: 90px;
+    padding-left: 15px;
+    border-radius: 10px;
 }
 
 .kontakt-footer{
@@ -440,6 +481,13 @@ textarea{
 }
 
 .kontakt-form{
-    border-bottom: solid;
-    color: var(--primarna-header-footer-sekcie);
+    margin-top: 50px;
+}
+#kontakt-border{
+    border-top: solid;
+    border-color: var(--primarna-header-footer-sekcie);
+    margin-top: 40px;
+    padding-top: 50px;
+    margin-left: 20px;
+    margin-right: 20px;
 }
