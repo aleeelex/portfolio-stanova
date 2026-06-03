@@ -116,12 +116,42 @@ h4{
 
 .domov-popis{
     background-color: var(--imput-bordery);
-    padding: 5px;
+    padding: 20px 20px 18px;
     border: var(--imput-bordery);
     border-radius: 10px;
-    margin-left: 20px;
-    margin-right: 20px;
-    margin-bottom: 70px;
+    margin: 0;
+    box-sizing: border-box;
+    max-width: 560px;
+}
+
+.hero{
+    display: flex;
+    align-items: flex-start;
+    gap: 30px;
+    margin: 20px;
+}
+
+.hero-image img{
+    display: block;
+    width: 100px;
+    
+    height: auto;
+}
+
+.hero-text{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.hero-headings h1{
+    margin: 0;
+}
+
+.hero-headings{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
 }
 
 .o-mne{
