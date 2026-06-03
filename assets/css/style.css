@@ -262,11 +262,21 @@ a{
 .meno-o-mne{
     font-family: Original Surfer;
     color: var(--sekundarna-nadpisy);
+    
 }
 
 .nadpis-o-mne{
     font-family: Irish Grover;
     margin-left: 20px;
+    color: var(--sekundarna-meno);
+    margin-bottom: -5px;
+}
+
+.profile-header{
+    display: flex;
+    align-items: center;
+    padding-left: 20px;
+    padding-right: 20px;
 }
 
 .zručnosti-nadpis{
@@ -296,6 +306,12 @@ a{
     border: solid;
     border-width: 6px;
     border-radius: 50%;
+    display: block;
+    width: 150px;
+    margin-left: auto; /* pushes image to the right inside .profile-header */
+    margin-right: 0;
+    margin-bottom: 20px;
+    margin-top: 20px;
 }
 
 .zručnosti-kvety{
