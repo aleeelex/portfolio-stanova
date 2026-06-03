@@ -417,6 +417,7 @@ form{
 
 .labels-kontakt{
     font-family: Cherry Swash;
+    color: var(--text-podnadpisy);
 }
 
 input{
@@ -435,5 +436,10 @@ textarea{
 
 .kontakt-footer{
     margin-top: 350px;
-    padding-bottom: 50px;
+    padding-bottom: 80px;
+}
+
+.kontakt-form{
+    border-bottom: solid;
+    color: var(--primarna-header-footer-sekcie);
 }
