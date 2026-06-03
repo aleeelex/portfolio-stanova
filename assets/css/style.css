@@ -319,22 +319,27 @@ a{
     font-family: Irish Grover;
     color: var(--sekundarna-nadpisy);
     text-align: right;
-    margin-right: 20px;
 }
 .portfolio-text{
     background-color: var(--imput-bordery);
-    margin-left: 20px;
-    margin-right: 20px;
     border-radius: 10px;
 }
+.projekty-uvod{
+    border-bottom: solid;
+    color: var(--primarna-header-footer-sekcie);
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+
 
 .projekty-nazvy{
     background-color: var(--primarna-border-nav);
     color: var(--nadpisy-projektov);
     text-align: center;
     border-radius: 5px;
-    margin-left: 20px;
-    margin-right: 20px;
+    margin-left: 85px;
+    margin-right: 85px;
 }
 
 .projekty-popis{
@@ -347,6 +352,10 @@ a{
 .projekt{
     border-color: var(--primarna-header-footer-sekcie);
     border: solid;
+}
+
+.projekty-sekcie{
+    border-bottom: solid;
 }
 
 
