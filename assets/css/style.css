@@ -223,19 +223,22 @@ h4{
     background-color: var(--primarna-border-nav);
     text-align: center;
     border-radius: 7px;
-    margin-left: 60px;
-    margin-right: 60px;
     font-size: 15px;
+    padding: 0 10px;
 }
 .border-popis{
     background-color: var(--primarna-border-nav);
     border-radius: 7px;
     font-size: 13px;
-    
+    padding: 0 10px 2px;
 }
 .naj-projekty{
     background-color: var(--primarna-header-footer-sekcie);
-    padding: 55px;
+    padding: 24px 18px 36px;
+    display: grid;
+    gap: 22px;
+    max-width: 980px;
+    margin: 0 auto;
 }
 
 .naj-projekty-nadpis{
@@ -255,26 +258,36 @@ h4{
     color: var(--primarna-pozadie);
     border: solid;
     border-width: 3px;
-    border-radius: 6px;
+    border-radius: 10px;
     display: block;
-    margin-left: auto;
-    margin-right: auto;
+    width: 180px;
+    height: auto;
+    margin: 0 auto;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.12);
 }
 
-.projekt-monet{
-    border-bottom: solid;
-    color: var(--primarna-pozadie);
-    padding-bottom: 50px;
-    margin-left: -20px;
-    margin-right: -20px;
+.projekt-karta{
+    display: grid;
+    grid-template-columns: 180px 1fr;
+    gap: 18px;
+    align-items: center;
+    border-bottom: 2px solid var(--primarna-pozadie);
+    padding-bottom: 18px;
 }
+
+.projekt-text{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.projekt-monet,
 .projekt-buducnost{
-    border-bottom: solid;
     color: var(--primarna-pozadie);
-    padding-top: 70px;
-    padding-bottom: 50px;
-    margin-left: -20px;
-    margin-right: -20px;
+}
+
+.projekt-buducnost{
+    padding-top: 8px;
 }
 
 
