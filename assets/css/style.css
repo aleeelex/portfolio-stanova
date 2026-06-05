@@ -288,12 +288,13 @@ a{
     margin-left: 20px;
     margin-right: 20px;
     border-radius: 10px;
+    font-size: 14px;
 }
 
 .meno-o-mne{
     font-family: Original Surfer;
     color: var(--sekundarna-nadpisy);
-    margin-top: -40px;
+    margin-top: -60px;
     font-weight: 600;
 }
 
@@ -302,6 +303,8 @@ a{
     margin-left: 20px;
     color: var(--sekundarna-meno);
     margin-bottom: -5px;
+    font-size: 27px;
+    font-weight: lighter;
 }
 
 .profile-header{
@@ -322,6 +325,8 @@ a{
     margin-bottom: 40px;
     padding-top: 7px;
     padding-bottom: 7px;
+    font-size: 22px;
+    font-weight: 600;
 }
 .zručnosti-sekcia{
     border-top: solid;
@@ -343,7 +348,7 @@ a{
     margin-left: auto; /* pushes image to the right inside .profile-header */
     margin-right: 0;
     margin-bottom: 20px;
-    margin-top: 45px;
+    margin-top: 70px;
 }
 
 .zručnosti-kvety{
@@ -444,6 +449,7 @@ a{
 .kontakt-nadpis{
     color: var(--sekundarna-nadpisy);
     text-align: center;
+    margin-top: 60px;
 }
 
 form{
@@ -521,8 +527,9 @@ button{
 #kontakt-border{
     border-top: solid;
     border-color: var(--primarna-header-footer-sekcie);
-    margin-top: 40px;
+    margin-top: 60px;
     padding-top: 50px;
     margin-left: 20px;
     margin-right: 20px;
+    margin-bottom: 30px;
 }
