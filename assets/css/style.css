@@ -33,6 +33,8 @@ footer{
     margin-top: 50px;
     padding-bottom: 80px;
     text-align: center;
+    font-size: small;
+    font-weight: lighter;
 }
 
 header{
@@ -291,7 +293,8 @@ a{
 .meno-o-mne{
     font-family: Original Surfer;
     color: var(--sekundarna-nadpisy);
-    
+    margin-top: -40px;
+    font-weight: 600;
 }
 
 .nadpis-o-mne{
@@ -340,7 +343,7 @@ a{
     margin-left: auto; /* pushes image to the right inside .profile-header */
     margin-right: 0;
     margin-bottom: 20px;
-    margin-top: 20px;
+    margin-top: 45px;
 }
 
 .zručnosti-kvety{
@@ -364,6 +367,9 @@ a{
     font-family: Irish Grover;
     color: var(--sekundarna-nadpisy);
     text-align: right;
+    margin-top: 30px;
+    font-size: 50px;
+    font-weight: lighter;
 }
 .portfolio-text{
     background-color: var(--imput-bordery);
