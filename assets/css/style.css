@@ -497,23 +497,23 @@ form{
     color: var(--text-podnadpisy);
     margin-bottom: 12px;
     margin-left: 5px;
-    font-size: 18px;
+    font-size: 14px;
 }
 
 input{
     display: block;
-    width: 100%;
+    width: 90%;
     background-color: var(--imput-bordery);
     border: none;
     border-radius: 10px;
-    padding: 14px 12px;
+    padding: 12px 10px;
     margin-bottom: 25px;
     box-sizing: border-box;
 }
 
 textarea{
     display: block;
-    width: 100%;
+    width: 90%;
     min-height: 140px;
     background-color: var(--imput-bordery);
     border: none;
