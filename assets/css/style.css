@@ -33,7 +33,7 @@ footer{
     margin-top: 50px;
     padding-bottom: 80px;
     text-align: center;
-    font-size: small;
+    font-size: 11px;
     font-weight: lighter;
 }
 
@@ -378,18 +378,18 @@ a{
     color: var(--sekundarna-nadpisy);
     text-align: right;
     margin-top: 30px;
-    font-size: 40px;
+    font-size: 45px;
     font-weight: lighter;
 }
 .portfolio-text{
     background-color: var(--imput-bordery);
-    border-radius: 10px;
+    border-radius: 15px;
     margin-bottom: 35px;
-    font-size: 14px;
-    padding-left: 10px;
-    padding-right: 10px;
-    padding-bottom: 10px;
-    padding-top: 10px;
+    font-size: 13px;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-bottom: 15px;
+    padding-top: 15px;
     margin-left: 50px;
 }
 .projekty-uvod{
@@ -411,6 +411,8 @@ a{
     margin-right: 70px;
     font-family: Cherry Swash;
     padding: 5px;
+    font-size: 17px;
+    font-weight: lighter;
 }
 
 .projekty-popis{
@@ -419,6 +421,7 @@ a{
     margin-left: 20px;
     margin-right: 20px;
     margin-bottom: 70px;
+    font-size: 13px;
 }
 
 .projekt{
