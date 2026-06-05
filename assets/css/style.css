@@ -545,7 +545,11 @@ button{
     margin-left: 20px;
     margin-right: 90px;
     padding-left: 15px;
-    border-radius: 10px;
+    border-radius: 15px;
+    padding-top: 5px;
+    padding-left: 20px;
+    padding-right: 5px;
+    
 }
 
 .kontakt-footer{
@@ -564,4 +568,8 @@ button{
     margin-left: 20px;
     margin-right: 20px;
     margin-bottom: 30px;
+}
+
+#ikonky{
+    margin-left: -15px;
 }
