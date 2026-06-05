@@ -384,9 +384,18 @@ a{
 }
 
 .zručnosti-kvety{
-    margin-left: 15px;
-    margin-right: 15px;
-    margin-bottom: 40px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 12px 10px;
+    justify-items: center;
+    align-items: center;
+    margin: 0 12px 30px;
+}
+
+.zručnosti-kvety img{
+    width: 150px;
+    height: auto;
+    display: block;
 }
 
 
