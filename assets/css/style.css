@@ -395,8 +395,8 @@ a{
 .projekty-uvod{
     border-bottom: solid;
     color: var(--primarna-header-footer-sekcie);
-    margin-left: 20px;
-    margin-right: 20px;
+    margin-left: 30px;
+    margin-right: 30px;
     margin-bottom: 90px;
 }
 
@@ -406,22 +406,29 @@ a{
     background-color: var(--primarna-border-nav);
     color: var(--nadpisy-projektov);
     text-align: center;
-    border-radius: 8px;
+    border-radius: 9px;
     margin-left: 70px;
     margin-right: 70px;
     font-family: Cherry Swash;
-    padding: 5px;
     font-size: 17px;
     font-weight: lighter;
+    padding-top: 8px;
+    padding-bottom: 8px;
 }
 
 .projekty-popis{
     background-color: var(--primarna-border-nav);
-    border-radius: 5px;
+    border-radius: 10px;
     margin-left: 20px;
     margin-right: 20px;
     margin-bottom: 70px;
     font-size: 13px;
+    padding-top: 15px;
+    padding-bottom: 25px;
+    padding-left: 20px;
+    padding-right: 20px;
+    text-align: center;
+    margin-top: 25px;
 }
 
 .projekt{
@@ -431,8 +438,8 @@ a{
 
 .projekty-sekcie{
     border-bottom: solid;
-    margin-left: 20px;
-    margin-right: 20px;
+    margin-left: 30px;
+    margin-right: 30px;
     color: var(--primarna-header-footer-sekcie);
     margin-bottom: 60px;
 }
