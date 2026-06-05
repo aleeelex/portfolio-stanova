@@ -483,8 +483,8 @@ a{
 
 form{
     background-color: var(--elementy-sekcie);
-    margin-left: 20px;
-    margin-right: 20px;
+    margin-left: 25px;
+    margin-right: 25px;
     padding: 30px 25px;
     padding-top: 25px;
     padding-bottom: 20px;
@@ -497,7 +497,7 @@ form{
     display: block;
     font-family: Cherry Swash;
     color: var(--text-podnadpisy);
-    margin-bottom: 12px;
+    margin-bottom: 8px;
     margin-left: 5px;
     font-size: 16px;
     font-weight: 600;
@@ -517,7 +517,7 @@ input{
 textarea{
     display: block;
     width: 90%;
-    min-height: 140px;
+    min-height: 80px;
     background-color: var(--imput-bordery);
     border: none;
     border-radius: 10px;
