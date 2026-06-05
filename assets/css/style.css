@@ -231,6 +231,7 @@ h4{
     background-color: var(--primarna-border-nav);
     border-radius: 7px;
     font-size: 13px;
+    
 }
 .naj-projekty{
     background-color: var(--primarna-header-footer-sekcie);
@@ -264,13 +265,18 @@ h4{
     border-bottom: solid;
     color: var(--primarna-pozadie);
     padding-bottom: 50px;
+    margin-left: -20px;
+    margin-right: -20px;
 }
 .projekt-buducnost{
     border-bottom: solid;
     color: var(--primarna-pozadie);
     padding-top: 70px;
     padding-bottom: 50px;
+    margin-left: -20px;
+    margin-right: -20px;
 }
+
 
 
 a{
@@ -485,12 +491,13 @@ form{
     background-color: var(--elementy-sekcie);
     margin-left: 25px;
     margin-right: 25px;
-    padding: 30px 25px;
-    padding-top: 25px;
-    padding-bottom: 20px;
+    padding: 20px 15px;
+    padding-top: 20px;
+    padding-bottom: 15px;
     border-radius: 15px;
     max-width: 560px;
     box-sizing: border-box;
+    margin-bottom: 80px;
 }
 
 .labels-kontakt{
@@ -538,6 +545,7 @@ button{
     color: var(--nadpisy-projektov);
     font-family: Cherry Swash;
     cursor: pointer;
+    font-size: 13px;
 }
 
 .mail-telefon{
@@ -565,8 +573,8 @@ button{
     border-color: var(--primarna-header-footer-sekcie);
     margin-top: 60px;
     padding-top: 50px;
-    margin-left: 20px;
-    margin-right: 20px;
+    margin-left: 30px;
+    margin-right: 30px;
     margin-bottom: 30px;
 }
 
