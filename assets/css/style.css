@@ -164,6 +164,7 @@ h4{
     border-right: var(--primarna-border-nav);
     color: var(--text-podnadpisy);
     margin-top: 40px;
+    font-size: 14px;
 }
 .sekcia-viac-omne{
     display: flex;
@@ -184,6 +185,7 @@ h4{
     color: var(--text-podnadpisy);
     border-radius: 7px;
     padding: 7px;
+    font-size: 14px;
 }
 .sekcia-viac-projektov{
     display: flex;
@@ -221,10 +223,12 @@ h4{
     border-radius: 7px;
     margin-left: 60px;
     margin-right: 60px;
+    font-size: 15px;
 }
 .border-popis{
     background-color: var(--primarna-border-nav);
     border-radius: 7px;
+    font-size: 13px;
 }
 .naj-projekty{
     background-color: var(--primarna-header-footer-sekcie);
