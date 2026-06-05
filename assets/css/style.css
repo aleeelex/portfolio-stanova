@@ -486,6 +486,8 @@ form{
     margin-left: 20px;
     margin-right: 20px;
     padding: 30px 25px;
+    padding-top: 25px;
+    padding-bottom: 20px;
     border-radius: 15px;
     max-width: 560px;
     box-sizing: border-box;
@@ -506,8 +508,8 @@ input{
     width: 90%;
     background-color: var(--imput-bordery);
     border: none;
-    border-radius: 10px;
-    padding: 12px 10px;
+    border-radius: 8px;
+    padding: 10px 8px;
     margin-bottom: 25px;
     box-sizing: border-box;
 }
@@ -518,8 +520,8 @@ textarea{
     min-height: 140px;
     background-color: var(--imput-bordery);
     border: none;
-    border-radius: 15px;
-    padding: 18px 16px;
+    border-radius: 10px;
+    padding: 10px 8px;
     margin-bottom: 25px;
     box-sizing: border-box;
 }
@@ -529,9 +531,9 @@ button{
     align-items: center;
     justify-content: center;
     margin-left: auto;
-    padding: 12px 30px;
+    padding: 8px 28px;
     border: none;
-    border-radius: 15px;
+    border-radius: 10px;
     background-color: var(--primarna-header-footer-sekcie);
     color: var(--nadpisy-projektov);
     font-family: Cherry Swash;
