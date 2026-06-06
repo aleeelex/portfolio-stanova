@@ -222,14 +222,13 @@ h4{
 .border-nazov{
     background-color: var(--primarna-border-nav);
     text-align: center;
-    border-radius: 7px;
-    font-size: 15px;
-    padding: 0 10px;
+    border-radius: 10px;
+    font-size: 14px;
 }
 .border-popis{
     background-color: var(--primarna-border-nav);
     border-radius: 7px;
-    font-size: 13px;
+    font-size: 12px;
     padding: 0 10px 2px;
 }
 .naj-projekty{
@@ -260,19 +259,19 @@ h4{
     border-width: 3px;
     border-radius: 10px;
     display: block;
-    width: 180px;
+    width: 160px;
     height: auto;
     margin: 0 auto;
-    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.12);
+    
 }
 
 .projekt-karta{
     display: grid;
     grid-template-columns: 180px 1fr;
-    gap: 18px;
+    gap: 10px;
     align-items: center;
     border-bottom: 2px solid var(--primarna-pozadie);
-    padding-bottom: 18px;
+    padding-bottom: 40px;
 }
 
 .projekt-text{
@@ -608,3 +607,7 @@ button{
 /*---------------------------------------------------------------------------------------------*/
 
 
+@media (min-width: 1024px){
+
+
+}
