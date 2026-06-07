@@ -640,7 +640,76 @@ button{
 /*---------------------------------------------------------------------------------------------*/
 
 
-@media (min-width: 1024px){
+/*=========POČÍTAČOVÁ VERZIA=========*/
 
+
+@media (min-width: 1024px){
+    header{
+        display: flex;
+        justify-content: flex-end;
+        align-items: center;
+        gap: 30px;
+    }
+
+    .hero{
+        align-items: center;
+        gap: 40px;
+        margin: 30px 40px 0;
+    }
+
+    .hero-image{
+        flex: 0 0 260px;
+    }
+
+    .hero-image img{
+        width: 260px;
+    }
+
+    .hero-text{
+        max-width: 640px;
+        gap: 24px;
+    }
+
+    .domov-popis{
+        max-width: 640px;
+        font-size: 15px;
+        padding: 14px 18px;
+    }
+
+    .naj-projekty{
+        grid-template-columns: repeat(2, 1fr);
+        align-items: start;
+        gap: 30px;
+        margin: 0 auto 140px;
+    }
+
+    .projekt-karta{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 14px;
+        padding-bottom: 30px;
+        text-align: center;
+    }
+
+    .obrazky{
+        width: 200px;
+        margin: 0 auto;
+    }
+
+    .projekt-text{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 12px;
+        text-align: center;
+    }
+
+    .projekt-buducnost,
+    .projekt-monet{
+        margin-top: 0;
+        padding-top: 0;
+    }
 
 }
