@@ -787,6 +787,17 @@ button{
         font-size: 30px;
     }
 
+    .zručnosti-kvety{
+        grid-template-columns: repeat(3, 1fr);
+        gap: 18px;
+        max-width: 960px;
+        margin: 0 auto 40px;
+    }
+
+    .zručnosti-kvety img{
+        width: 150px;
+    }
+
     .o-mne-paragraphy{
         display: flex;
         flex-direction: row;
