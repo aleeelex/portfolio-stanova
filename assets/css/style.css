@@ -365,8 +365,9 @@ a{
     margin-bottom: 40px;
     padding-top: 7px;
     padding-bottom: 7px;
-    font-size: 22px;
+    font-size: 21px;
     font-weight: 600;
+    
 }
 .zručnosti-sekcia{
     border-top: solid;
@@ -401,9 +402,10 @@ a{
 }
 
 .zručnosti-kvety img{
-    width: 150px;
+    width: 135px;
     height: auto;
     display: block;
+    
 }
 
 
