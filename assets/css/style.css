@@ -582,14 +582,14 @@ button{
 
 .mail-telefon{
     background-color: var(--primarna-border-nav);
-    margin-left: 20px;
-    margin-right: 90px;
+    margin-left: 25px;
+    margin-right: 80px;
     padding-left: 15px;
     border-radius: 15px;
     padding-top: 5px;
     padding-left: 20px;
-    padding-right: 5px;
-    
+    padding-right: 100px;
+    font-size: 14px;
 }
 
 .kontakt-footer{
@@ -605,15 +605,20 @@ button{
     border-color: var(--primarna-header-footer-sekcie);
     margin-top: 60px;
     padding-top: 50px;
-    margin-left: 30px;
+    margin-left: 25px;
     margin-right: 30px;
     margin-bottom: 30px;
+    font-size: 23px;
 }
 
 #ikonky{
     margin-left: -15px;
 }
 
+.kontakt-nazvy{
+    font-weight: bold;
+    font-size: 15px;
+}
 
 /*---------------------------------------------------------------------------------------------*/
 
