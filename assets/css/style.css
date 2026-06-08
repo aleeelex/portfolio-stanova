@@ -785,12 +785,28 @@ button{
         border-radius: 14px;
         border-bottom: none;
         box-sizing: border-box;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .projekty-sekcie .obrazky2{
+        order: 1;
+    }
+
+    .projekty-sekcie .projekty-nazvy{
+        order: 2;
+        margin-top: 20px;
+    }
+
+    .projekty-sekcie .projekty-popis{
+        order: 3;
     }
 
     .projekty-nazvy,
     .projekty-popis{
-        margin-left: 0;
-        margin-right: 0;
+        margin-left: 50px;
+        margin-right: 50px;
     }
 
     .obrazky2{
