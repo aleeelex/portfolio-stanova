@@ -879,6 +879,23 @@ button{
         justify-content: center;
         margin-left: auto;
         margin-right: auto;
+        align-items: center;
+        flex-wrap: wrap;
+        gap: 12px;
+    }
+
+    .border-kontakt #ozvite-sa-nadpis{
+        flex-basis: 100%;
+        order: 1;
+        text-align: center;
+    }
+
+    .border-kontakt .kontaktovat{
+        order: 2;
+    }
+
+    .border-kontakt img{
+        order: 3;
     }
 
 }
