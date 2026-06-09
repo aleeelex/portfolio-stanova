@@ -651,7 +651,7 @@ button{
 /*=========POČÍTAČOVÁ VERZIA=========*/
 
 
-@media (min-width: 1024px){
+@media (min-width: 768px){
     .kontakt-nadpis{
         text-align: left;
     }
