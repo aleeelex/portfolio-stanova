@@ -690,6 +690,7 @@ button{
         margin-left: 60px;
         margin-top: 70px;
         margin-bottom: -20px;
+        font-weight: 600;
     }
 
     form{
@@ -701,6 +702,7 @@ button{
         flex-direction: column;
         align-items: center;
         text-align: left;
+        
     }
 
     .labels-kontakt,
@@ -714,8 +716,18 @@ button{
     
 
     #kontakt-border{
-        margin-left: 80px;
-        margin-right: 80px;
+        margin-left: 150px;
+        margin-right: 150px;
+        font-size: 27.5px;
+        font-weight: 500;
+        text-align: center;
+    }
+
+    .mail-telefon{
+        width: min(560px, calc(100% - 40px));
+        margin: 40px auto 0;
+        padding-left: 20px;
+        padding-right: 20px;
     }
 
 
