@@ -43,7 +43,33 @@ footer{
 header{
     background-color: var(--primarna-header-footer-sekcie);
     padding: 15px;
-
+    position: sticky;
+    top: 0;
+    z-index: 100;
+}
+.nav-toggle{
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    font-family: Irish Grover;
+    color: var(--text-podnadpisy);
+    background-color: var(--primarna-border-nav);
+    border: none;
+    border-radius: 5px;
+    padding: 8px 12px;
+    cursor: pointer;
+}
+.site-nav{
+    display: none;
+    flex-direction: column;
+    gap: 10px;
+    margin-top: 12px;
+}
+.site-nav.open{
+    display: flex;
+}
+.site-nav a{
+    margin: 0;
 }
 .header-domov{
     font-family: Irish Grover;
@@ -685,6 +711,17 @@ button{
         justify-content: flex-end;
         align-items: center;
         gap: 30px;
+    }
+
+    .site-nav{
+        display: flex;
+        flex-direction: row;
+        gap: 30px;
+        margin-top: 0;
+    }
+
+    .nav-toggle{
+        display: none;
     }
 
     .hero{

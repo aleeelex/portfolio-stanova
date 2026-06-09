@@ -12,10 +12,13 @@
 <!--------------------------------------------------------------------->
     
     <header>
-        <a href="index.html" class="header-domov">Domov</a>
-        <a href="kontakt.html" class="header-kontakt">Kontakt</a>
-        <a href="o-mne.html" class="header-omne">O mne</a>
-        <a href="portfolio.html" class="header-portfolio">Portfólio</a>
+        <button type="button" class="nav-toggle" aria-expanded="false" aria-controls="site-navigation" aria-label="Otvoriť menu">☰</button>
+        <nav id="site-navigation" class="site-nav" aria-label="Hlavná navigácia">
+            <a href="index.html" class="header-domov">Domov</a>
+            <a href="kontakt.html" class="header-kontakt">Kontakt</a>
+            <a href="o-mne.html" class="header-omne">O mne</a>
+            <a href="portfolio.html" class="header-portfolio">Portfólio</a>
+        </nav>
     </header>
 
 <!--------------------------------------------------------------------->
@@ -50,5 +53,15 @@
 
     <footer class="kontakt-footer">© 2026 Alexandra Staňová. Všetky práva vyhradené.</footer>
 
+    <script>
+        const navToggle = document.querySelector('.nav-toggle');
+        const siteNav = document.querySelector('.site-nav');
+
+        navToggle?.addEventListener('click', () => {
+            const expanded = navToggle.getAttribute('aria-expanded') === 'true';
+            navToggle.setAttribute('aria-expanded', String(!expanded));
+            siteNav?.classList.toggle('open');
+        });
+    </script>
 </body>
 </html>
