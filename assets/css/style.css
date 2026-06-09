@@ -683,18 +683,24 @@ button{
 
 
 @media (min-width: 768px){
+    
     .kontakt-nadpis{
         text-align: left;
+        font-size: 30px;
+        margin-left: 60px;
+        margin-top: 70px;
+        margin-bottom: -20px;
     }
 
     form{
-        margin-left: auto;
-        margin-right: auto;
+        margin: 0 auto;
+        padding-top: 30px;
+        padding-bottom: 30px;
         width: min(560px, calc(100% - 40px));
         display: flex;
         flex-direction: column;
         align-items: center;
-        text-align: center;
+        text-align: left;
     }
 
     .labels-kontakt,
@@ -705,6 +711,14 @@ button{
         max-width: 480px;
         box-sizing: border-box;
     }
+    
+
+    #kontakt-border{
+        margin-left: 80px;
+        margin-right: 80px;
+    }
+
+
 
     header{
         display: flex;
