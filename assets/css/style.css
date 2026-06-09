@@ -938,8 +938,8 @@ button{
 
     .border-kontakt{
         justify-content: center;
-        margin-left: auto;
-        margin-right: auto;
+        margin-left: 80px;
+        margin-right: 80px;
         align-items: center;
         flex-wrap: wrap;
         gap: 12px;
