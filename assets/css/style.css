@@ -703,6 +703,7 @@ button{
         width: 280px;
         height: auto;
         display: block;
+        margin-right: 20px;
     }
 
     .hero-text{
@@ -711,19 +712,56 @@ button{
         gap: 24px;
         align-items: flex-start;
         text-align: left;
+        margin-left: 50px;
+        font-size: 500px;
+    }
+    .farba-mena{
+        font-size: 40px;
+        letter-spacing: 25px;
+        font-weight: 500;
+    }
+    .farba-portfolio{
+        font-size: 68px;
     }
 
     .domov-popis{
         max-width: 640px;
         font-size: 15px;
         padding: 14px 18px;
+        margin-left: -5px;
+    }
+
+    #id-viac-omne{
+        font-size: 23px;
+    }
+    .o-mne{
+        font-size: 16px;
+        padding-left: 10px;
+        padding-right: 10px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        border-radius: 10px;
+    }
+
+    .sekcia-viac-omne{
+        margin-left: 80px;
+        margin-right: 80px;
+    }
+
+    .naj-projekty-nadpis{
+        font-size: 25px;
+        padding-top: 12px;
+        padding-bottom: 12px;
+        margin-left: 210px;
+        margin-right: 210px;
+        border-radius: 12px;
     }
 
     .naj-projekty{
         grid-template-columns: repeat(2, 1fr);
         align-items: start;
         gap: 30px;
-        margin: 0 auto 140px;
+        
     }
 
     .projekt-karta{
