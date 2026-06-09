@@ -761,7 +761,6 @@ button{
         grid-template-columns: repeat(2, 1fr);
         align-items: start;
         gap: 30px;
-        
     }
 
     .projekt-karta{
