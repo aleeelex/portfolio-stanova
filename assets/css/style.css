@@ -252,7 +252,7 @@ h4{
 .border-nazov{
     background-color: var(--primarna-border-nav);
     text-align: center;
-    border-radius: 5px;
+    border-radius: 10px;
     padding-top: 2px;
     font-size: 14px;
 }
@@ -269,7 +269,7 @@ h4{
     gap: 22px;
     max-width: 1277px;
     margin-bottom: 140px;
-    
+
 }
 
 .naj-projekty-nadpis{
