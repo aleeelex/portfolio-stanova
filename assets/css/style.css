@@ -770,10 +770,10 @@ button{
     }
 
     .hero-image img{
-        width: 280px;
+        width: 381px;
         height: auto;
         display: block;
-        margin-right: 20px;
+    /* margin-right: 20px;*/
     }
 
     .hero-text{
@@ -786,12 +786,13 @@ button{
         font-size: 500px;
     }
     .farba-mena{
-        font-size: 40px;
-        letter-spacing: 25px;
+        font-size: 70px;
+        letter-spacing: 30px;
         font-weight: 500;
     }
     .farba-portfolio{
-        font-size: 68px;
+        font-size: 120px;
+        font-weight: 500;
     }
 
     .domov-popis{
@@ -802,10 +803,11 @@ button{
     }
 
     #id-viac-omne{
-        font-size: 23px;
+        margin-top: 100px;
+        font-size: 33px;
     }
     .o-mne{
-        font-size: 16px;
+        font-size: 20px;
         padding-left: 10px;
         padding-right: 10px;
         padding-top: 10px;
@@ -831,6 +833,8 @@ button{
         grid-template-columns: repeat(2, 1fr);
         align-items: start;
         gap: 30px;
+        
+        
     }
 
     .projekt-karta{
@@ -898,7 +902,7 @@ button{
         margin-left: 0;
         margin-right: 250px;
         margin-top: -18px;
-        font-size: 15px;
+        font-size: 20px;
         padding-top: 20px;
         padding-bottom: 20px;
         padding-right: 20px;
@@ -949,6 +953,10 @@ button{
         margin-right: 50px;
     }
 
+    .projekty-popis{
+        font-size: 20px;
+    }
+
     .obrazky2{
         width: 220px;
         margin-bottom: 8px;
@@ -975,9 +983,11 @@ button{
     }
 
     .meno-o-mne{
-        margin-top: 0;
+        margin-top: 20px;
         font-size: 36px;
         text-align: center;
+        font-weight: 500;
+        margin-bottom: 60px;
     }
 
     #pfp{
@@ -985,6 +995,7 @@ button{
         width: 220px;
         margin: 0 auto;
         flex-shrink: 0;
+        margin-top: 25px;
     }
 
     .nadpis-o-mne{
@@ -1010,7 +1021,7 @@ button{
         flex-direction: row;
         flex-wrap: nowrap;
         align-items: stretch;
-        gap: 20px;
+        gap: 40px;
         max-width: 1100px;
         margin: 0 auto;
         padding: 0 40px;
@@ -1021,6 +1032,10 @@ button{
         min-width: 0;
         margin: 20px 0 0;
         box-sizing: border-box;
+    }
+
+    p{
+        font-size: 20px;
     }
 
     .border-kontakt{
