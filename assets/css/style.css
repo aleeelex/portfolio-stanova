@@ -873,17 +873,19 @@ button{
     }
 
     .sekcia-viac-omne{
-        margin-left: 80px;
-        margin-right: 80px;
+        margin-left: 350px;
+        margin-right: 350px;
+        margin-bottom: 250px;
     }
 
     .naj-projekty-nadpis{
-        font-size: 25px;
-        padding-top: 12px;
-        padding-bottom: 12px;
-        margin-left: 210px;
-        margin-right: 210px;
+        font-size: 30px;
+        padding-top: 15px;
+        padding-bottom: 15px;
+        margin-left: 560px;
+        margin-right: 560px;
         border-radius: 12px;
+        text-align: center;
     }
 
     .naj-projekty{
