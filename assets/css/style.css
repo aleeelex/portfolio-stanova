@@ -744,9 +744,41 @@ button{
     .site-nav{
         display: flex;
         flex-direction: row;
-        gap: 30px;
+        gap: 70px;
         margin-top: 0;
+        margin-right: 40px;
     }
+    .header-domov{
+        padding-top: 6px;
+        padding-bottom: 6px;
+        padding-right: 15px;
+        padding-left: 15px;
+        border-radius: 10px;
+    }
+    .header-kontakt{
+        padding-top: 6px;
+        padding-bottom: 6px;
+        padding-right: 15px;
+        padding-left: 15px;
+        border-radius: 10px;
+    }
+    .header-omne{
+        padding-top: 6px;
+        padding-bottom: 6px;
+        padding-right: 15px;
+        padding-left: 15px;
+        border-radius: 10px;
+    }
+    .header-portfolio{
+        padding-top: 6px;
+        padding-bottom: 6px;
+        padding-right: 15px;
+        padding-left: 15px;
+        border-radius: 10px;
+    }
+    
+
+
 
     .nav-toggle{
         display: none;
