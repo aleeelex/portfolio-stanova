@@ -171,15 +171,20 @@ h4{
 
 .hero{
     display: flex;
-    align-items: flex-start;
-    gap: 30px;
+    align-items: center;
+    gap: 20px;
     margin: 20px;
 }
 
 .hero-image img{
     /*display: block;*/
-    width: 150px;
+    width: 220px;
     height: auto;
+    display: block;
+}
+
+.hero-image{
+    flex: 0 0 220px;
 }
 
 .hero-text{
