@@ -956,18 +956,18 @@ button{
     .projekty-uvod{
         text-align: left;
         max-width: 1100px;
-        margin-left: 40px;
-        margin-right: 40px;
+        margin-left: 90px;
         padding: 0 40px;
+        
     }
 
     .projekty-portfolio{
         text-align: left;
         margin-left: 0;
         margin-right: 0;
-        font-size: 60px;
+        font-size: 80px;
         font-weight: 500;
-        margin-top: 50px;
+        margin-top: 80px;
     }
 
     .portfolio-text{
@@ -976,10 +976,11 @@ button{
         margin-right: 250px;
         margin-top: -18px;
         font-size: 20px;
-        padding-top: 20px;
-        padding-bottom: 20px;
+        padding-top: 25px;
+        padding-bottom: 25px;
         padding-right: 20px;
-        padding-left: 20px;
+        padding-left: 25px;
+        margin-bottom: 80px;
     }
 
     .projekty-grid{
@@ -989,6 +990,7 @@ button{
         margin: 0 auto 80px;
         padding: 0 40px;
         align-items: start;
+        margin-bottom: 300px;
     }
 
     .portfolio-projekty-border{
@@ -996,8 +998,9 @@ button{
         grid-template-columns: repeat(2, minmax(0, 1fr));
         gap: 28px;
         grid-column: 1 / -1;
-        border-bottom: solid 4px var(--primarna-header-footer-sekcie);
+        border-bottom: solid var(--primarna-header-footer-sekcie);
         padding-bottom: 50px;
+        margin-top: 100px;
     }
     
 
@@ -1005,12 +1008,20 @@ button{
     .projekty-sekcie{
         margin: 0;
         padding: 18px 16px 8px;
-        border-radius: 14px;
+        border-radius: 30px;
         border-bottom: none;
         box-sizing: border-box;
         display: flex;
         flex-direction: column;
         align-items: center;
+    }
+
+    .projekty-nazvy{
+        padding-top: 10px;
+        padding-bottom: 10px;
+        padding-right: 50px;
+        padding-left: 50px;
+        border-radius: 10px;
     }
 
     .projekty-sekcie .obrazky2{
@@ -1037,7 +1048,7 @@ button{
     }
 
     .obrazky2{
-        width: 220px;
+        width: 300px;
         margin-bottom: 8px;
     }
 
