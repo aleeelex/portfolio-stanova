@@ -1143,7 +1143,7 @@ button{
         margin-right: 350px;
         margin-left: 350px;
         margin-bottom: 200px;
-        margin-top: 170px;
+        margin-top: 250px;
     }
 
     .border-kontakt #ozvite-sa-nadpis{
@@ -1152,9 +1152,10 @@ button{
         text-align: center;
     }
     #ozvite-sa-nadpis{
-        font-size: 30px;
+        font-size: 35px;
         font-weight: 500;
         margin-bottom: 10px;
+        margin-top: 80px;
     }
 
     .border-kontakt .kontaktovat{
@@ -1167,6 +1168,7 @@ button{
 
     footer{
         font-size: 15px;
+        padding-top: 200px;
     }
 
 }
