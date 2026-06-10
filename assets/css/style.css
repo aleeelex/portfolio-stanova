@@ -919,7 +919,9 @@ button{
         align-items: start;
     }
 
-
+    .portfolio-projekty-border{
+        display: contents;
+    }
     
 
 
