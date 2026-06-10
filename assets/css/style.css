@@ -1226,7 +1226,7 @@ button{
         text-align: start;
         justify-content: start;
         align-items: start;
-        
+        width: 60px;
     }
 
     .projekty-riadok{
