@@ -178,13 +178,14 @@ h4{
 
 .hero-image img{
     /*display: block;*/
-    width: 220px;
+    width: 160px;
     height: auto;
     display: block;
+    
 }
 
 .hero-image{
-    flex: 0 0 220px;
+    /*flex: 0 0 220px;*/
 }
 
 .hero-text{
