@@ -722,7 +722,7 @@ button{
         margin-left: auto;
         padding-top: 15px;
         padding-bottom: 15px;
-        
+        width: 20%;
     }
     input{
         margin-bottom: 50px;
@@ -910,8 +910,10 @@ button{
     }
 
     .obrazky{
-        width: 200px;
+        width: 300px;
         margin: 0 auto;
+        margin-top: 50px;
+        margin-bottom: 30px;
     }
 
     .projekt-text{
@@ -1135,11 +1137,13 @@ button{
 
     .border-kontakt{
         justify-content: center;
-        margin-left: 80px;
-        margin-right: 80px;
         align-items: center;
         flex-wrap: wrap;
         gap: 12px;
+        margin-right: 350px;
+        margin-left: 350px;
+        margin-bottom: 200px;
+        margin-top: 170px;
     }
 
     .border-kontakt #ozvite-sa-nadpis{
@@ -1148,7 +1152,7 @@ button{
         text-align: center;
     }
     #ozvite-sa-nadpis{
-        font-size: 27px;
+        font-size: 30px;
         font-weight: 500;
         margin-bottom: 10px;
     }
