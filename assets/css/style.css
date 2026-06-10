@@ -46,6 +46,10 @@ header{
     position: sticky;
     top: 0;
     z-index: 100;
+    display:flex;
+    justify-content:flex-end;
+    align-items:center;
+    gap:15px;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
 .nav-toggle{
@@ -282,9 +286,11 @@ h4{
 .border-nazov{
     background-color: var(--primarna-border-nav);
     text-align: center;
-    border-radius: 10px;
-    padding-top: 2px;
+    border-radius: 5px;
+    margin-right: 10px;
+    margin-left: 10px;
     font-size: 14px;
+    
 }
 .border-popis{
     background-color: var(--primarna-border-nav);
@@ -762,7 +768,7 @@ button{
 
     header{
         display: flex;
-        justify-content: flex-end;
+        justify-content: space-between;
         align-items: center;
         gap: 30px;
     }
@@ -883,7 +889,7 @@ button{
 
     .viac-projektov{
         font-size: 20px;
-
+        margin-bottom: 30px;
     }
 
 
@@ -905,8 +911,9 @@ button{
         
     }
     .projekt-karta{
-        /*border-bottom: none;
-        padding-bottom: 0;*/
+        border-bottom: none;
+        padding-bottom: 0;
+        
     }
 
     .projekt-karta{
@@ -1195,6 +1202,24 @@ button{
         padding-top: 200px;
     }
 
-    
+    #logo-stranky{
+        margin-left: 10px;
+        text-align: start;
+        justify-content: start;
+        align-items: start;
+        
+    }
+
+    .projekty-riadok{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 30px;
+        grid-column: 1 / -1;
+        border-bottom: solid var(--primarna-pozadie);
+        padding-bottom: 50px;
+        margin-right: 60px;
+        margin-left: 60px;
+        margin-bottom: 70px;
+    }
 
 }
