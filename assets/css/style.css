@@ -857,6 +857,7 @@ button{
         font-size: 15px;
         padding: 14px 18px;
         margin-left: -5px;
+        
     }
 
     #id-viac-omne{
@@ -928,7 +929,7 @@ button{
     .border-nazov{
         padding-right: 15px;
         padding-left: 15px;
-        font-size: 17px;
+        font-size: 20px;
     }
 
     .border-popis{
@@ -1154,8 +1155,11 @@ button{
     #ozvite-sa-nadpis{
         font-size: 35px;
         font-weight: 500;
-        margin-bottom: 10px;
+        margin-bottom: 40px;
         margin-top: 80px;
+    }
+    .kontaktovat{
+        font-size: 20px;
     }
 
     .border-kontakt .kontaktovat{
@@ -1164,6 +1168,7 @@ button{
 
     .border-kontakt img{
         order: 3;
+        width: 130px;
     }
 
     footer{
