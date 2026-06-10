@@ -945,6 +945,7 @@ button{
         padding-right: 15px;
         padding-left: 15px;
         font-size: 20px;
+        
     }
 
     .border-popis{
@@ -1025,11 +1026,8 @@ button{
     }
 
     .projekty-nazvy{
-        padding-top: 10px;
-        padding-bottom: 10px;
-        padding-right: 50px;
-        padding-left: 50px;
-        border-radius: 10px;
+        width:280px;
+        box-sizing:border-box;
     }
 
     .projekty-sekcie .obrazky2{
@@ -1053,7 +1051,15 @@ button{
 
     .projekty-popis{
         font-size: 20px;
+        width: 280px;
+        min-height: 170px;
+        box-sizing: border-box;
+        display:flex;
+        align-items:center;
+        justify-content:center;
+        text-align:center;
     }
+
 
     .obrazky2{
         width: 300px;
