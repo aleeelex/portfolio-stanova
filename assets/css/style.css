@@ -1027,6 +1027,7 @@ button{
 
     .zručnosti-nadpis{
         font-size: 30px;
+        margin-top: 110px;
     }
 
     .zručnosti-kvety img{
@@ -1042,6 +1043,7 @@ button{
         max-width: 1100px;
         margin: 0 auto;
         padding: 0 40px;
+        margin-bottom: 90px;
     }
 
     .o-mne-p{
